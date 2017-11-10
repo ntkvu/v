@@ -352,6 +352,13 @@
       }
     },
     {
+      "name": "Support",
+      "scope": "support.type.object.dom.js",
+      "settings": {
+        "foreground": "#5EC4FF"
+      }
+    },
+    {
       "name": "Support Function",
       "scope": [
         "support.function"
@@ -379,6 +386,13 @@
     {
       "name": "Variable",
       "scope": "variable",
+      "settings": {
+        "foreground": "#a29aff"
+      }
+    },
+    {
+      "name": "Function Param (Elixir)",
+      "scope": "parameter.variable.function",
       "settings": {
         "foreground": "#a29aff"
       }
@@ -744,7 +758,36 @@
       "name": "js ts this",
       "scope": "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
       "settings": {
-        "foreground": "#5EC4FF"
+        // "foreground": "#5EC4FF"
+        "foreground": "#d95468"
+      }
+    },
+    {
+      "name": "Jinja/Nunjucks meta",
+      "scope": "meta.scope.jinja.tag, meta.scope.jinja.variable",
+      "settings": {
+        "foreground": "#e27e8d"
+      }
+    },
+    {
+      "name": "Support object",
+      "scope": "support.type.object",
+      "settings": {
+        "foreground": "#5ec4ff"
+      }
+    },
+    {
+      "name": "Keyword controll (CSS)",
+      "scope": "punctuation.definition.keyword, keyword.control",
+      "settings": {
+        "foreground": "#5ec4ff"
+      }
+    },
+    {
+      "name": "Support Type Property (CSS)",
+      "scope": "support.type.property-name",
+      "settings": {
+        "foreground": "#B7C5D3"
       }
     }
   ]
