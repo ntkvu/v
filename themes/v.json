@@ -789,6 +789,21 @@
       "settings": {
         "foreground": "#B7C5D3"
       }
+    },
+    // Typescripts
+    {
+      "name": "Object key ts",
+      "scope": "meta.object-literal.key.ts",
+      "settings": {
+        "foreground": "#8BD49C"
+      }
+    },
+    {
+      "name": "Punctuation decorator ts",
+      "scope": "punctuation.decorator.ts",
+      "settings": {
+        "foreground": "#70e1e8"
+      }
     }
   ]
 }
