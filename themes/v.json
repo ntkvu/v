@@ -401,6 +401,13 @@
       }
     },
     {
+      "name": "Puntuation (Elixir)",
+      "scope": "punctuation.definition.variable.elixir",
+      "settings": {
+        "foreground": "#a29aff"
+      }
+    },
+    {
       "name": "[CSS] - Entity",
       "scope": [
         "source.css",
