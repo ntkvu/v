@@ -824,7 +824,7 @@
     },
     {
       "name": "Variable ts",
-      "scope": "variable.parameter.ts, support.variable.property.dom.ts",
+      "scope": "variable.parameter.ts, support.variable.property.dom.ts, support.variable.dom.ts, support.variable.property.ts",
       "settings": {
         "foreground": "#a29aff"
       }
